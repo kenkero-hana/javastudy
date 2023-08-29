@@ -1,4 +1,4 @@
-public class CellPhone implements Iphone,IMailer,IComputer{
+public class CellPhone implements ICellPhone,IMailer,IComputer{
     public void sendMail(){
         System.out.println("メールを送る");
     }
@@ -9,7 +9,7 @@ public class CellPhone implements Iphone,IMailer,IComputer{
         System.out.println("ウェブを閲覧する");
     }
     public void playGame(){
-        System.out.println("電話をかける");
+        System.out.println("ゲームをする");
     }
     public void CellPhone(){
         System.out.println("電話をかける");

@@ -7,9 +7,9 @@ public class Problemex4_1{
         funcComputer(cp);
     }
     // 電話としての処理
-    public static void funcPhone(Iphone phone){
-        phone.sendMail();
-        phone.recieveMail();
+    public static void funcPhone(ICellPhone phone){
+        phone.CellPhone();
+        phone.recievePhone();
     }
     // メーラーとしての処理
     public static void funcMailer(IMailer mailer){
@@ -18,7 +18,7 @@ public class Problemex4_1{
     }
     // コンピュータとしての処理
     public static void funcComputer(IComputer computer){
-        computer.sendMail();
-        computer.recieveMail();
+        computer.playGame();
+        computer.borwseWeb();
     }
 }
